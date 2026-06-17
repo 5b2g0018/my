@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>色彩倒水謎題 Water Puzzle | 黃映瑄 Ying-Hsuan</title>
+    <meta name="description" content="經典有趣的倒水試管整理謎題遊戲，挑戰你的邏輯思考！具備現代化的玻璃擬態設計、豐富的關卡選擇以及流暢的動畫體驗。" />
+    <meta name="keywords" content="黃映瑄, 倒水謎題, 試管遊戲, 網頁遊戲, JavaScript 遊戲" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;900&family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <script src="waterpuzzle.js"></script>
+  </head>
+  <body>
+    <h1>2026 Water Puzzle Game</h1>
+    <div id="game-info" class="game-area">
+      <p>關卡：<span id="level-count">1</span></p>
+      <p>完成的試管：<span id="completed-tubes-count">0</span></p>
+    </div>
+    <div id="controls" class="game-area">
+      <label for="level-select">選擇關卡</label>
+      <select id="level-select">
+        <option value="1">Level 1</option>
+        <option value="2">Level 2</option>
+        <option value="3">Level 3</option>
+        <option value="4">Level 4</option>
+        <option value="5">Level 5</option>
+        <option value="6">Level 6</option>
+        <option value="7">Level 7</option>
+        <option value="8">Level 8</option>
+        <option value="9">Level 9</option>
+        <option value="10">Level 10</option>
+      </select>
+      <button id="play-button">PLAY</button>
+      <a href="../index.html" class="btn-home" style="text-decoration: none; margin-left: 10px; display: inline-block; vertical-align: middle;">回首頁</a>
+    </div>
+    <div id="game-board" class="game-area"></div>
+  </body>
+</html>
