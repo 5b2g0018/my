@@ -99,7 +99,11 @@ input, select, textarea {
 	}
 
 	body {
-		background: #ffffff;
+		background-image: url('../../images/kpop_music_bg.png');
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: center;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -3327,3 +3331,23 @@ input, select, textarea {
 			}
 
 		}
+
+/* Custom Readability Overrides */
+h1, h2, h3, h4, h5, h6 {
+	color: #1a1a1c;
+}
+
+p, li, dt, dd, blockquote {
+	color: #2c2c2e;
+	font-weight: 450;
+}
+
+/* Keep tile text white */
+.tiles article p, .tiles article h2 {
+	color: #ffffff !important;
+}
+
+/* Keep slide-out menu text white */
+#menu a, #menu h2 {
+	color: #ffffff !important;
+}
